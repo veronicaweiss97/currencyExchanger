@@ -1,0 +1,16 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 5rem;
+  width: 100%;
+  background-image: url(https://www.finance-watch.org/wp-content/uploads/2018/08/money-supply-1600x1067.jpg);
+  color: white;
+}
+.footer p {
+  font-style: italic;
+}
+@media (max-width: 414px) {
+  .footer {
+    height: 2rem;
+  }
+}
